@@ -14,3 +14,8 @@ def sourceAdded(resource):
 # {"id":1,"jsonrpc":"2.0","method":"sourceRemoved","params":{"resource":"SourcesService"}}
 def sourceRemoved(resource):
     return ""
+
+@public
+#1 - sourceUpdated - [] {'resource': 'SourcesService'}
+def sourceUpdated(resource):
+    return ''
